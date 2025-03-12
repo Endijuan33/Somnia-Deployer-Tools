@@ -21,7 +21,7 @@ export function printBanner() {
     .join('\n');
 
   console.log(chalk.cyanBright(centered));
-  console.log(chalk.green(centerText('SOMNIA TESTNET AUTO DEPLOY & SEND TO RANDOM')));
+  console.log(chalk.green(centerText('SOMNIA TESTNET DEPLOY TOOLS & SEND NATIVE/ERC VIA SMART CONTRACT')));
   console.log(chalk.yellow(centerText('Telegram: https://t.me/e0303')));
   console.log(chalk.yellow(centerText('GitHub  : https://github.com/endijuan33')));
   console.log('\n');
