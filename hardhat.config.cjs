@@ -4,7 +4,7 @@ module.exports = {
   solidity: "0.8.28",
   networks: {
     "somnia-testnet": {
-      url: process.env.RPC_URL || "https://dream-rpc.somnia.network",
+      url: "https://rpc.ankr.com/somnia_testnet",
       chainId: 50312,
       accounts: [process.env.MAIN_PRIVATE_KEY]
     }
