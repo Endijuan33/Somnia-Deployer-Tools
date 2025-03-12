@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
+    "cli-spinners": "^3.2.0",
     "dotenv": "^16.0.0",
     "ethers": "^5.7.2",
     "inquirer": "^9.1.0"
