@@ -1,0 +1,23 @@
+{
+  "name": "Somnia-Deployer-Tools",
+  "version": "1.0.0",
+    "description": "Automated Smart Contract Deployment and Transaction Tool for the Somnia Testnet",
+  "main": "main.js",                                                                                  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.7.2",
+    "inquirer": "^9.1.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.13",
+    "@openzeppelin/contracts": "^4.9.0",
+    "hardhat": "^2.22.1",
+    "solc": "^0.8.28"
+  },
+  "author": "ENDCORE",
+  "license": "MIT"
+}
